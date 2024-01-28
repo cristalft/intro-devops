@@ -1,6 +1,7 @@
 terraform{
     backend "s3" {
-        bucket = "platzi-mi-repo-para-terraform"
+        #bucket = "platzi-mi-repo-para-terraform"
+        bucket = "platziaws"
         encrypt = true
         key = "terraform.tfstate"
         region = "us-east-1"
